@@ -17,7 +17,7 @@ API_HASH = environ.get('API_HASH', '4f5b4bbc15e7f9df9961ac92e8fd219b')
 BOT_TOKEN = environ.get('BOT_TOKEN', '5755441254:AAGEjSZE-Ymql7RJ_isz3sGNkmL8CW9PnVg')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', true))
+USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', 'Ture'))
 PICS = (environ.get('PICS', 'https://te.legra.ph/file/b81be7bada3cd7bc9750f.jpg')).split()
 
 # Admins, Channels & Users
