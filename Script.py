@@ -11,13 +11,13 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    START_TXT = """<b>Hᴇʏ {} ɪᴍ 『 ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ 』 ᴀɴ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ.</b>
+    START_TXT = """<b>💤𝖶𝖾𝗅𝖼𝗈𝗆𝖾💤\n {} 🍎 ɪᴍ 『 ғɪʟᴛᴇʀ ʙᴏᴛ 』 𝖨 𝖢𝖺𝗇 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌/𝖳𝗏 𝖲𝖾𝗋𝗂𝖾𝗌 \n 🍒𝖬𝖺𝗂𝗇𝗍𝖺𝗂𝗇 <a href=https://t.me/vimukthioshada></b><b>𝗩𝗶𝗺𝘂𝗸𝘁𝗵𝗶 𝗢𝘀𝗵𝗮𝗱𝗮 :)</a><b></b>
     
-<i>Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ</i>"""
-    HELP_TXT = """<b>𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂.</b>"""
-    PRIVATEBOT_TXT = """<b>Tʜᴀɴᴋs Fᴏʀ Aᴅᴅɪɴɢ Mᴇ</b>
-<b>›› Mᴜsᴛ Aᴅᴅ Mᴇ Aᴅᴍɪɴ Tᴏ Wᴏʀᴋ Oɴ Tʜɪs Gʀᴏᴜᴘ</b>
+<i>𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 😌\n𝖱𝖾𝖺𝖽 𝖬𝖾𝗇𝗎</i>"""
+    HELP_TXT = """<b>𝖶𝖾𝗅𝖼𝗈𝗆𝖾 {}
+𝖧𝖾𝗋𝖾 𝖨𝗌 𝖬𝗒 𝖢𝗈𝗆𝗆𝖺𝗇𝖽.</b>"""
+    PRIVATEBOT_TXT = """<b>𝖳𝗁𝖺𝗇𝗄 𝖥𝗈𝗋 𝖠𝖽𝖽 𝖬𝖾 🍎</b>
+<b>›› 𝖯𝗅𝗓 𝖠𝖽𝖽 𝖬𝖾 𝖠𝖽𝗆𝗂𝗇 𝖳𝗈 𝖶𝗈𝗋𝗄 𝖮𝗇 𝖳𝗁𝗂𝗌 𝖦𝗋𝗈𝗎𝗉</b>
 
 <b>›› Cʜᴀɴɢᴇ Sᴇᴛᴛɪɴɢ Fᴏʀ Uʀ Gʀᴏᴜᴘ Cʟɪᴄᴋ 👉 /connect </b>
 
@@ -25,12 +25,12 @@ class script(object):
 
 <b>›› Eɴᴊᴏʏ !! Mᴏʀᴇ Iɴғᴏ Usᴇ Uɴᴅᴇʀ Bᴜᴛᴛᴏɴs</b>"""
     
-    ABOUT_TXT = """🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}><b>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</b></a>
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Sharathitsisme></b><b>sʜᴀʀᴀᴛʜ<b></a>
+    ABOUT_TXT = """🤖𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href=https://t.me/{}><b>𝖥𝗂𝗅𝗆𝗌𝖲𝗍𝗎𝖽𝗂𝗈 𝖬𝗈𝗏𝗂𝖾𝗌/𝖡𝗈𝗍</b></a>
+👨‍💻 𝖮𝗐𝗇𝖾𝗋 : <a href=https://t.me/vimukthioshada></b><b>𝖵𝗂𝗆𝗎𝗄𝗍𝗁𝗂<b></a>
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ʜᴇʀᴏᴋᴜ
-📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat></b><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a><b>
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : 𝖭𝖺𝗌𝖺 🌎
+📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/Filmstudiodl></b><b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a><b>
 🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0 [ ʙᴇᴛᴀ ]\n</b></i>"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
